@@ -1,0 +1,183 @@
+/*
+@media (max-width: 640-768 (?)px)
+*/
+
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  /*
+  margin-top: 25px;
+  */
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+}
+/*Top Nav*/
+hr {
+  border: 1px solid #0065fc;
+  /*
+  margin-top: -10;
+
+  padding-top: 0%;  */
+  position: relative;
+  top: -27px;
+  left: -5px;
+  width: 110%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+
+  position: relative;
+}
+.navlink {
+  display: inline-block;
+  height: 30px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+/*
+nav a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #0065fc;
+  position: absolute;
+  top: 0;
+  width: 0%;
+}
+nav a:hover::after {
+  width: 100%;
+}
+*/
+#sub {
+  color: #0065fc;
+  font-weight: bold;
+}
+a:hover {
+  color: #0065fc;
+}
+
+a.active {
+  color: #0065fc;
+  /*
+  border-top: solid;
+  border-color: #0065fc;
+  */
+}
+
+/*Barre de recherche*/
+
+.recherche,
+.fltr {
+  display: flex;
+}
+
+.fltr {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  background-color: #0065fc;
+  color: white;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+#srch {
+  font-weight: bold;
+  color: black;
+}
+.fltrbtn {
+  background-color: white;
+  border-color: #f2f2f2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.recherche {
+  display: inline-block;
+  border: #f2f2f2;
+  border-radius: 1px;
+}
+.iconefltr {
+  color: #0065fc;
+}
+#info-icon {
+  color: #0065fc;
+}
+/*Corps de la page*/
+
+.accommodation {
+  display: flex;
+}
+
+.logement {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.famous {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  background-color: #f2f2f2;
+}
+
+.acc_img {
+  width: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  clip-path: inset(100px);
+  /*border top left & top right & object-fit:cover?*/
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  margin: 1.5em;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-color: white;
+  border-radius: 20px/20px;
+}
+
+.description {
+  margin: 1em;
+}
+
+.pied {
+  background-color: #f2f2f2;
+}
