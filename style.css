@@ -128,42 +128,25 @@ a.active {
   border: #f2f2f2;
   border-radius: 1px;
 }
-.iconefltr {
-  color: #0065fc;
-}
-#info-icon {
-  color: #0065fc;
-}
 /*Corps de la page*/
 
+/*Hébergements à Marseille*/
 .accommodation {
   display: flex;
+  margin-top: 2em;
 }
 
 .logement {
   background-color: #f2f2f2;
+  border-radius: 20px/20px;
+}
+
+#links-lgmt {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-.famous {
-  margin: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-self: end;
-  background-color: #f2f2f2;
-}
-
-.acc_img {
-  width: 150px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  clip-path: inset(100px);
-  /*border top left & top right & object-fit:cover?*/
-}
-
 .card {
   width: 250px;
   height: 250px;
@@ -174,10 +157,57 @@ a.active {
   border-radius: 20px/20px;
 }
 
+.ville-cherchée {
+  margin-left: 4em;
+}
+.famous {
+  margin-left: 2em;
+  border-radius: 20px/20px;
+  background-color: #f2f2f2;
+}
+#msts {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  border-radius: 20px/20px;
+}
+
+.acc_img {
+  width: 100%;
+  max-height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /*
+    clip-path: inset(100px);
+    */
+  object-fit: cover;
+  /*border top left & top right & object-fit:cover?*/
+}
+
 .description {
   margin: 1em;
 }
 
+/*Activités*/
+
+/*Icons*/
+.fa-dog {
+  color: #0065fc;
+}
+
+#info-icon {
+  color: #0065fc;
+}
+
+.fa-star {
+  color: #0065fc;
+}
+
+#greystar {
+  color: #dadada;
+}
+
+/*Footer*/
 .pied {
   background-color: #f2f2f2;
 }
