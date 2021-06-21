@@ -90,10 +90,20 @@ a.active {
 }
 
 /*Barre de recherche*/
-
+.btn-search {
+  display: flex;
+}
+.locate-icon {
+  background-color: #f2f2f2;
+  display: inline-block;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 .recherche,
 .fltr {
   display: flex;
+  border: 1px solid #f2f2f2;
 }
 
 .fltr {
@@ -101,17 +111,27 @@ a.active {
   display: flex;
   align-items: center;
 }
-
-.search {
+#srch {
+  text-decoration: none;
+  border-style: none;
+  font-weight: bold;
+  color: black;
+}
+.bouton-recherche {
+  margin: 0 auto;
   background-color: #0065fc;
   color: white;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+  padding: 10px;
 }
-#srch {
-  font-weight: bold;
-  color: black;
+.barre-recherche {
+  display: inline-block;
+  padding: 10px;
 }
 .fltrbtn {
   background-color: white;
@@ -123,11 +143,7 @@ a.active {
   font-size: 16px;
   cursor: pointer;
 }
-.recherche {
-  display: inline-block;
-  border: #f2f2f2;
-  border-radius: 1px;
-}
+
 /*Corps de la page*/
 
 /*Hébergements à Marseille*/
