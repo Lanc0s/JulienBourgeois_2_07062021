@@ -16,6 +16,7 @@
     <title>Un voyage qui compte</title>
   </head>
   <body>
+    <!--Navbar top-->
     <header>
       <div class="container">
         <img src="images/logo/Reservia.svg" alt="/" />
@@ -63,27 +64,27 @@
         sont disponibles dans cette ville
       </div>
       <section class="accommodation" id="marseille">
-        <article class="logement">
+        <article id="logement">
           <h3 class="ville-cherchée">Hébergements à Marseille</h3>
           <!--div padding ou padding dans image? flex grow flex shrink?-->
           <div id="links-lgmt">
-            <div class="card">
+            <div class="acc-card">
               <img
                 class="acc_img"
                 src="images/hebergements/4_small/cannebière.jpg"
               />
               <div class="description">
-                <h4>Auberge la Cannebière</h4>
+                <b>Auberge la Cannebière</b>
                 <p>Nuit à partir de <b>25€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star" id="greystar"></i>
               </div>
             </div>
-            <div class="card">
+            <div class="acc-card">
               <img class="acc_img" src="images/hebergements/4_small/port.jpg" />
               <div class="description">
-                <h4>Hôtel du port</h4>
+                <b>Hôtel du port</b>
                 <p>Nuit à partir de <b>52€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -91,26 +92,26 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="acc-card">
               <img
                 class="acc_img"
                 src="images/hebergements/4_small/mouettes.jpg"
               />
               <div class="description">
-                <h4>Hôtel Les mouettes</h4>
+                <b>Hôtel Les mouettes</b>
                 <p>Nuit à partir de <b>76€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star" id="greystar"></i>
               </div>
             </div>
-            <div class="card">
+            <div class="acc-card">
               <img
                 class="acc_img"
                 src="images/hebergements/4_small/la mer.jpg"
               />
               <div class="description">
-                <h4>Hôtel de la mer</h4>
+                <b>Hôtel de la mer</b>
                 <p>Nuit à partir de <b>46€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i
@@ -118,26 +119,26 @@
                 ><i class="fas fa-star" id="greystar"></i>
               </div>
             </div>
-            <div class="card">
+            <div class="acc-card">
               <img
                 class="acc_img"
                 src="images/hebergements/4_small/panier.jpg"
               />
               <div class="description">
-                <h4>Auberge Le Panier</h4>
+                <b>Auberge Le Panier</b>
                 <p>Nuit à partir de <b>23€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star" id="greystar"></i>
               </div>
             </div>
-            <div class="card">
+            <div class="acc-card">
               <img
                 class="acc_img"
                 src="images/hebergements/4_small/amiina.jpg"
               />
               <div class="description">
-                <h4>Hôtel chez Amina</h4>
+                <b>Hôtel chez Amina</b>
                 <p>Nuit à partir de <b>96€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -147,43 +148,44 @@
           </div>
           <h3 class="ville-cherchée">Afficher plus</h3>
         </article>
+
         <aside class="famous">
           <div class="mostly-search">
             <h3 id="msts">Les plus populaires</h3>
 
-            <div class="card">
+            <div class="fame-card">
               <img
-                class="acc_img"
+                class="fame-image"
                 src="images/hebergements/4_small/soleil matin.jpg"
               />
               <div class="description">
-                <h4>Hôtel Le soleil du matin</h4>
+                <b>Hôtel Le soleil du matin</b>
                 <p>Nuit à partir de <b>128€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star" id="greystar"></i>
               </div>
             </div>
-            <div class="card">
+            <div class="fame-card">
               <img
-                class="acc_img"
+                class="fame-image"
                 src="images/hebergements/4_small/coeur de leau.jpg"
               />
               <div class="description">
-                <h4>Au cœur de l'eau Chambres d'hôtes</h4>
+                <b>Au cœur de l'eau Chambres d'hôtes</b>
                 <p>Nuit à partir de <b>71€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star" id="greystar"></i>
               </div>
             </div>
-            <div class="card">
+            <div class="fame-card">
               <img
-                class="acc_img"
+                class="fame-image"
                 src="images/hebergements/4_small/tout bleu.jpg"
               />
               <div class="description">
-                <h4>Hôtel Tout bleu et Blanc</h4>
+                <b>Hôtel Tout bleu et Blanc</b>
                 <p>Nuit à partir de <b>68€</b></p>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i
                 ><i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -195,23 +197,49 @@
       </section>
       <article id="activities">
         <!--flex grow flex shrink?-->
-        <div class="act-card">
-          <img src="images/activites/4_small/vieux-port.jpg" alt="port" />
-        </div>
-        <div class="act-card">
-          <img src="images/activites/4_small/pomègues.jpg" alt="" />
-        </div>
-        <div class="act-card">
-          <img src="images/activites/4_small/frioul.jpg" alt="" />
-        </div>
-        <div class="act-card">
-          <img src="images/activites/4_small/calanques.jpg" alt="" />
-        </div>
-        <div class="act-card">
-          <img src="images/activites/4_small/garde.jpg" alt="" />
-        </div>
-        <div class="act-card">
-          <img src="images/activites/4_small/longchamp.jpg" alt="" />
+        <div id="links-act">
+          <div class="act-card1">
+            <img
+              src="images/activites/4_small/vieux-port.jpg"
+              class="image-act"
+              alt=""
+            />
+          </div>
+          <div class="act-card">
+            <img
+              src="images/activites/4_small/pomègues.jpg"
+              class="image-act"
+              alt=""
+            />
+          </div>
+          <div class="act-card">
+            <img
+              src="images/activites/4_small/frioul.jpg"
+              class="image-act"
+              alt=""
+            />
+          </div>
+          <div class="act-card1">
+            <img
+              src="images/activites/4_small/calanques.jpg"
+              class="image-act"
+              alt=""
+            />
+          </div>
+          <div class="act-card">
+            <img
+              src="images/activites/4_small/garde.jpg"
+              class="image-act"
+              alt=""
+            />
+          </div>
+          <div class="act-card">
+            <img
+              src="images/activites/4_small/longchamp.jpg"
+              class="image-act"
+              alt=""
+            />
+          </div>
         </div>
       </article>
     </main>
