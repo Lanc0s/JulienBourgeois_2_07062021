@@ -102,7 +102,6 @@ a.active {
 }
 .recherche {
   display: flex;
-  border: 2px solid #f2f2f2;
 }
 
 #srch {
@@ -126,6 +125,7 @@ a.active {
 .barre-recherche {
   display: inline-block;
   padding: 10px;
+  border: 1px solid #f2f2f2;
 }
 
 /*Filtres recherche*/
@@ -140,7 +140,7 @@ a.active {
   margin-left: 2em;
   height: 20px;
   background-color: white;
-  border: 2px solid #dfdfdf;
+  border: 1px solid #f2f2f2;
   border-radius: 30px/30px;
   padding: 15px 32px;
   text-align: center;
