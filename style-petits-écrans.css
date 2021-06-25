@@ -3,7 +3,7 @@ body {
   margin-right: 50px;
   margin-top: 0;
   font-family: "Raleway", sans-serif;
-  font-size: 0.85em;
+  font-size: 0.7em;
 }
 /*Top Nav*/
 header {
@@ -211,6 +211,8 @@ a.active {
   margin-left: 4em;
 }
 .famous {
+  margin-left: 0;
+  margin-bottom: 1.5em;
   border-radius: 20px/20px;
   background-color: #f2f2f2;
   width: 100%;
