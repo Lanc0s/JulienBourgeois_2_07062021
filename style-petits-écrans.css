@@ -1,38 +1,3 @@
-@media all and (max-width: 1280px) {
-  .accommodation {
-    flex-wrap: wrap-reverse;
-    width: 100%;
-  }
-  .filtre {
-    flex-flow: column wrap;
-    margin: 1em;
-  }
-
-  #logement,
-  #famous {
-    width: 100%;
-  }
-
-  #links-act {
-    display: inline-block;
-    width: 100%;
-  }
-  .act-card {
-    width: 0;
-    width: 100%;
-  }
-  .image-act,
-  .image-act-grande,
-  .image-act-petite,
-  .image-act-moy {
-    height: 100px;
-  }
-
-  .act-card {
-    width: 100%;
-  }
-}
-
 body {
   margin-left: 50px;
   margin-right: 50px;
@@ -105,20 +70,20 @@ nav li :hover {
   color: #0065fc;
 }
 /*
-nav a::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  background-color: #0065fc;
-  position: absolute;
-  top: 0;
-  width: 0%;
-}
-nav a:hover::after {
-  width: 100%;
-}
-*/
+  nav a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #0065fc;
+    position: absolute;
+    top: 0;
+    width: 0%;
+  }
+  nav a:hover::after {
+    width: 100%;
+  }
+  */
 #sub {
   color: #0065fc;
   font-weight: bold;
@@ -130,9 +95,9 @@ a:hover {
 a.active {
   color: #0065fc;
   /*
-  border-top: solid;
-  border-color: #0065fc;
-  */
+    border-top: solid;
+    border-color: #0065fc;
+    */
 }
 
 /*Barre de recherche*/
@@ -177,8 +142,7 @@ a.active {
 /*Filtres recherche*/
 
 .filtre {
-  display: flex;
-  align-items: baseline;
+  flex-flow: column wrap;
   margin: 1em;
 }
 
@@ -200,14 +164,14 @@ a.active {
 
 /*Hébergements à Marseille*/
 .accommodation {
-  display: flex;
-  margin-top: 2em;
+  flex-wrap: wrap-reverse;
+  width: 100%;
 }
 
 #logement {
   background-color: #f2f2f2;
   border-radius: 20px/20px;
-  width: 75%;
+  width: 100%;
 }
 
 #links-lgmt {
@@ -234,8 +198,8 @@ a.active {
   border-top-right-radius: 20px;
   border: 5px solid white;
   /*
-    clip-path: inset(100px);
-  */
+      clip-path: inset(100px);
+    */
   object-fit: cover;
   padding: 0;
   /*border top left & top right & object-fit:cover?*/
@@ -247,21 +211,20 @@ a.active {
   margin-left: 4em;
 }
 .famous {
-  margin-left: 2em;
   border-radius: 20px/20px;
   background-color: #f2f2f2;
-  width: 350px;
+  width: 100%;
 }
 #msts {
   margin-top: 30px;
-  margin-left: 30px;
 }
 .fame-card {
   display: flex;
   flex-flow: row nowrap;
   width: 90%;
   height: 150px;
-  margin: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   background-color: white;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   border-color: white;
@@ -299,7 +262,7 @@ a.active {
   margin-bottom: 50px;
 }
 #links-act {
-  display: flex;
+  display: inline-block;
   flex-flow: wrap column;
   width: 100%;
   max-height: 500px;
@@ -307,7 +270,7 @@ a.active {
   gap: 2.2em;
 }
 .act-card {
-  width: 21%;
+  width: 100%;
   background-color: white;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.18);
   border-color: white;
@@ -316,30 +279,32 @@ a.active {
 .description-act {
   padding-left: 20px;
 }
+.image-act,
+.image-act-grande,
+.image-act-petite,
+.image-act-moy {
+  height: 100px;
+}
 .image-act {
   width: 100%;
-  height: 140px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
 }
 .image-act-petite {
   width: 100%;
-  height: 110px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
 }
 .image-act-moy {
   width: 100%;
-  height: 165px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
 }
 .image-act-grande {
   width: 100%;
-  height: 360px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
