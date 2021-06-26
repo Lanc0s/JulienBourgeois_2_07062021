@@ -103,6 +103,7 @@ a.active {
 /*Barre de recherche*/
 .btn-search {
   display: flex;
+  justify-content: center;
 }
 .locate-icon {
   background-color: #f2f2f2;
@@ -164,6 +165,7 @@ a.active {
 
 /*Hébergements à Marseille*/
 .accommodation {
+  display: flex;
   flex-wrap: wrap-reverse;
   width: 100%;
 }
