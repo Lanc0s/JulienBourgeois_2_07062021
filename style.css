@@ -185,19 +185,26 @@ a.active {
 }
 
 .fltrbtn {
+  display: flex;
   margin-left: 2em;
   height: 20px;
-  background-color: white;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #888;
   border-radius: 30px/30px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   cursor: pointer;
 }
 
+.icone-fltr {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
 /*Corps de la page*/
 
 /*Hébergements à Marseille*/
@@ -348,11 +355,9 @@ a.active {
 }
 
 /*Icons*/
-.fa-dog {
-  color: #0065fc;
-}
 
-#info-icon {
+#info-icon,
+.fas {
   color: #0065fc;
 }
 
