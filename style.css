@@ -36,9 +36,9 @@
 */
 
 body {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
   font-family: "Raleway", sans-serif;
   font-size: 0.85em;
 }
@@ -67,8 +67,8 @@ nav ul {
   align-items: center;
 }
 nav li {
-  margin-left: 2em;
-  margin-right: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   position: relative;
   height: 100%;
 }
@@ -89,6 +89,7 @@ nav a {
 }
 nav li :hover {
   border-top: 4px solid #0065fc;
+
   padding-left: 1.2em;
   padding-right: 1.2em;
 }
@@ -180,12 +181,13 @@ a.active {
 
 .filtre {
   display: flex;
-  align-items: baseline;
   margin: 1em;
+  align-items: baseline;
 }
 
 .fltrbtn {
   display: flex;
+  position: relative;
   margin-left: 2em;
   height: 20px;
   border: 1px solid #888;
@@ -198,8 +200,12 @@ a.active {
 }
 
 .icone-fltr {
-  display: flex;
-  align-items: center;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
   width: 40px;
   height: 40px;
   border: 2px solid #000;
@@ -249,10 +255,12 @@ a.active {
   padding: 0;
   /*border top left & top right & object-fit:cover?*/
 }
+/*
 .description {
   padding: 0px 0px;
 }
-.ville-cherchée {
+*/
+.ville-cherchee {
   margin-left: 4em;
 }
 .famous {
@@ -324,6 +332,7 @@ a.active {
 }
 .description-act {
   padding-left: 20px;
+  padding-bottom: 10px;
 }
 .image-act {
   width: 100%;

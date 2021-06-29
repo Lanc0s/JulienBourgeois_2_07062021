@@ -1,9 +1,9 @@
 body {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 0;
   font-family: "Raleway", sans-serif;
   font-size: 0.7em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 /*Top Nav*/
 header {
@@ -57,6 +57,7 @@ nav li :hover {
 }
 .navlink {
   display: flex;
+  flex-flow: wrap row-reverse;
   height: 100%;
 }
 .navbar {
@@ -101,10 +102,12 @@ a.active {
 }
 
 /*Barre de recherche*/
+
 .btn-search {
   display: flex;
   justify-content: center;
 }
+
 .locate-icon {
   background-color: #f2f2f2;
   display: inline-block;
@@ -112,6 +115,7 @@ a.active {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
 .recherche {
   display: flex;
 }
@@ -171,8 +175,8 @@ a.active {
 }
 
 #logement {
-  background-color: #f2f2f2;
-  border-radius: 20px/20px;
+  background-color: white;
+  border-radius: 0px/0px;
   width: 100%;
 }
 
@@ -333,6 +337,8 @@ a.active {
 
 /*Footer*/
 .pied {
+  display: flex;
+  flex-flow: column wrap;
   background-color: #f2f2f2;
   display: flex;
 }
