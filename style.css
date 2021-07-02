@@ -89,7 +89,6 @@ nav a {
 }
 nav li :hover {
   border-top: 4px solid #0065fc;
-
   padding-left: 1.2em;
   padding-right: 1.2em;
 }
@@ -145,7 +144,7 @@ a.active {
 .locate-icon {
   background-color: #f2f2f2;
   display: inline-block;
-  padding: 10px;
+  padding: 15px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -169,7 +168,7 @@ a.active {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: inline-block;
-  padding: 10px;
+  padding: 13px;
 }
 .barre-recherche {
   display: inline-block;
@@ -185,31 +184,38 @@ a.active {
   align-items: baseline;
 }
 
-.fltrbtn {
+.filtre-bouton {
   display: flex;
+  justify-content: flex-end;
   position: relative;
   margin-left: 2em;
   height: 20px;
-  border: 1px solid #888;
+  border: 2px solid #deebff;
   border-radius: 30px/30px;
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
   font-size: 16px;
   cursor: pointer;
 }
-
 .icone-fltr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  top: 0;
-  left: -5px;
+  color: #0065fc;
+  left: -2px;
   bottom: 0;
-  text-align: center;
-  width: 100%;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #000;
+  width: 49px;
+  height: 47px;
+  border: 2px solid #deebff;
+  background-color: #deebff;
   border-radius: 50%;
+}
+.secret {
+  color: transparent;
+  margin-left: -1.1em;
+  width: 100%;
+  width: 48px;
+  height: 48px;
 }
 /*Corps de la page*/
 
@@ -231,8 +237,8 @@ a.active {
   justify-content: space-around;
 }
 .acc-card {
-  width: 250px;
-  height: 200px;
+  width: 25%;
+  height: 210px;
   margin: 1.5em;
   padding: 0;
   background-color: white;
@@ -260,6 +266,10 @@ a.active {
   padding: 0px 0px;
 }
 */
+.etoiles-acc {
+  padding-bottom: 1em;
+}
+
 .ville-cherchee {
   margin-left: 4em;
 }
@@ -294,7 +304,6 @@ a.active {
 .mostly-search {
   display: flex;
   flex-direction: column;
-  justify-self: end;
   border-radius: 20px/20px;
 }
 .famousHead {
@@ -365,8 +374,16 @@ a.active {
 
 /*Icons*/
 
-#info-icon,
-.fas {
+.fa-money-bill-wave,
+.fa-child,
+.fa-heart,
+.fa-dog {
+  top: 1em;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+#info-icon {
   color: #0065fc;
 }
 
