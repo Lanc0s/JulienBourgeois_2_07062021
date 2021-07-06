@@ -234,8 +234,8 @@ a.active {
 .description {
   padding: 0px 0px;
 }
-#ville-cherchee {
-  margin-left: 4em;
+.ville-cherchee {
+  margin-left: 2em;
 }
 .famous {
   margin-left: 0;
@@ -250,7 +250,6 @@ a.active {
 .fame-card {
   display: flex;
   flex-flow: row nowrap;
-  width: 90%;
   height: 150px;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
