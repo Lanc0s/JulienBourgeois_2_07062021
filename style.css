@@ -96,7 +96,7 @@
 
   #activities {
     margin-top: 50px;
-    margin-bottom: 1em !important;
+    margin-bottom: 50px !important;
     padding: 0 !important;
   }
   #links-act {
@@ -142,6 +142,7 @@
 *********************************************************************************************************
 *********************************************************************************************************
 */
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 0.85em;
@@ -165,19 +166,13 @@ nav {
   height: 100%;
 }
 
-nav ul {
+.navbar {
   display: flex;
   height: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  align-items: center;
 }
-nav li {
-  padding-left: 3em;
-  padding-right: 3em;
-  position: relative;
-  height: 100%;
+.active,
+.nav-menu {
+  width: 10em;
 }
 nav a {
   display: flex;
@@ -185,55 +180,28 @@ nav a {
   height: 100%;
   text-decoration: none;
   color: black;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu :hover {
+  width: 100%;
+  border-top: 3px solid #0065fc;
+  height: 96%;
+  color: #0065fc;
 }
 .active {
   height: 100%;
   margin: 0;
   padding: 0;
-  border-top: 4px solid #0065fc;
-  padding-left: 1.2em;
-  padding-right: 1.2em;
-}
-nav li :hover {
-  border-top: 4px solid #0065fc;
-  padding-left: 1.2em;
-  padding-right: 1.2em;
-}
-.navlink {
-  display: flex;
-  height: 100%;
-}
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
+  border-top: 3px solid #0065fc;
 }
 
 .active a {
   color: #0065fc;
 }
-/*
-nav a::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  background-color: #0065fc;
-  position: absolute;
-  top: 0;
-  width: 0%;
-}
-nav a:hover::after {
-  width: 100%;
-}
-*/
 #sub {
   color: #0065fc;
   font-weight: bold;
-}
-a:hover {
-  color: #0065fc;
 }
 
 a.active {
