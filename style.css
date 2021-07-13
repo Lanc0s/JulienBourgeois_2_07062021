@@ -7,14 +7,42 @@
     margin-top: 0 !important;
   }
   /*Top Nav*/
-
+  .container {
+    display: inline-block !important;
+  }
+  #logo {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
   nav li {
     margin-left: 2em !important;
     margin-right: 2em !important;
   }
 
-  .navlink {
-    flex-flow: wrap row-reverse !important;
+  .navbar {
+    height: 20% !important;
+    flex-flow: wrap row !important;
+    width: 400px;
+    justify-content: space-evenly;
+  }
+  #sub {
+    position: absolute;
+    top: 2.3em;
+    right: 0;
+  }
+
+  .active {
+    margin: 0;
+    padding: 0;
+    height: 3em !important;
+    border-top: 0 solid #0065fc !important;
+    border-bottom: 3px solid #0065fc;
+    width: 45% !important;
+  }
+
+  #nav-activities {
+    width: 55% !important;
+    border-bottom: 3px solid #f2f2f2;
   }
   /*Barre de recherche*/
   .btn-search {
@@ -26,11 +54,31 @@
   .filtre {
     flex-flow: row wrap !important;
   }
+  #title-filtre {
+    width: 100%;
+  }
   .filtre-bouton {
     border: 1px solid #deebff !important;
     font-size: 1em !important;
+    height: 5px !important;
+    margin-left: 1em !important;
+    margin-bottom: 1em;
+    align-items: center;
   }
-
+  .icone-fltr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065fc;
+    left: -2px;
+    bottom: 0;
+    width: 33px !important;
+    height: 33px !important;
+    border: 2px solid #deebff;
+    background-color: #deebff;
+    border-radius: 50%;
+  }
   .locate-icon {
     padding: 10px !important;
   }
@@ -192,7 +240,6 @@ nav {
 }
 nav a {
   display: flex;
-  align-items: center;
   height: 100%;
   text-decoration: none;
   color: black;
@@ -215,7 +262,7 @@ nav a {
 .active a {
   color: #0065fc;
 }
-#sub {
+#inscription {
   color: #0065fc;
   font-weight: bold;
 }
@@ -283,7 +330,7 @@ a.active {
   height: 20px;
   border: 2px solid #deebff;
   border-radius: 30px/30px;
-  padding: 15px 32px;
+  padding: 15px;
   padding-left: 4em;
   font-size: 16px;
   cursor: pointer;

@@ -27,15 +27,21 @@
     <!--Navbar top-->
     <header>
       <div class="container">
-        <img src="images/logo/Reservia.svg" alt="/" />
+        <div id="logo">
+          <img src="images/logo/Reservia.svg" alt="/" />
+        </div>
         <nav>
           <!--remplacer tout le ul par des div pour modifier le hover-->
           <div class="navbar">
             <div class="active">
               <a href="#accommodation"> Hébergement</a>
             </div>
-            <div class="nav-menu"><a href="#activities">Activités</a></div>
-            <div class="nav-menu"><a href="#" id="sub">S'inscrire</a></div>
+            <div class="nav-menu" id="nav-activities">
+              <a href="#activities">Activités</a>
+            </div>
+            <div class="nav-menu" id="sub">
+              <a href="#" id="inscription">S'inscrire</a>
+            </div>
           </div>
         </nav>
       </div>
@@ -60,7 +66,9 @@
         </div>
       </div>
       <div class="filtre">
-        <strong>Filtres</strong>
+        <p id="title-filtre">
+          <strong>Filtres</strong>
+        </p>
         <!-- position absolut span ? remplacer button par div-->
         <div class="filtre-bouton">
           <div class="icone-fltr">
