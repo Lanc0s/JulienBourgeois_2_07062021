@@ -117,8 +117,9 @@
   .description {
     padding: 0px 0px !important;
   }
-  h3,
-  h4 {
+  .titres,
+  .ville-cherchee,
+  .description-act {
     margin-left: 1em !important;
   }
   .famousHead {
@@ -143,6 +144,10 @@
     align-items: center;
   }
 
+  .nom-hotel {
+    margin-top: 1em !important;
+    margin-bottom: 0 !important;
+  }
   /*Activités*/
 
   #activities {
@@ -395,13 +400,12 @@ a.active {
   padding: 0;
   /*border top left & top right & object-fit:cover?*/
 }
-/*
-.description {
-  padding: 0px 0px;
+.nom-hotel {
+  margin-top: -5px;
+  margin-bottom: -5px;
 }
-*/
 .etoiles-acc {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .ville-cherchee {
@@ -535,9 +539,10 @@ a.active {
 
 .fa-star {
   color: #0065fc;
+  padding-bottom: 2em;
 }
 
-#greystar {
+.greystar {
   color: #dadada;
 }
 
