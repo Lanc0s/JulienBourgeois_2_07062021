@@ -198,9 +198,82 @@
 *********************************************************************************************************
 *********************************************************************************************************
 */
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    margin-left: 1000px !important;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .filtre {
+    flex-flow: row wrap !important;
+    margin: 0 !important;
+  }
+  #title-filtre {
+    width: 100%;
+  }
+  .filtre-bouton {
+    border: 1px solid #deebff !important;
+    font-size: 1em !important;
+    height: 5px !important;
+    margin-left: 1em !important;
+    margin-bottom: 1em;
+    align-items: center;
+  }
+  .icone-fltr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065fc;
+    left: -2px;
+    bottom: 0;
+    width: 33px !important;
+    height: 33px !important;
+    border: 2px solid #deebff;
+    background-color: #deebff;
+    border-radius: 50%;
+  }
+  .locate-icon {
+    padding: 10px !important;
+  }
+  .bouton-recherche {
+    padding: 10px !important;
+  }
+
+  /*Hébergement à Marseille*/
+  .accommodation {
+    flex-wrap: wrap-reverse !important;
+    width: 100% !important;
+  }
+  #logement {
+    background-color: white !important;
+    border-radius: 0px/0px !important;
+    width: 100% !important;
+  }
+  #links-lgmt {
+    align-items: center;
+  }
+  .mostly-search {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .acc-card {
+    width: 27% !important;
+    padding: 0 !important;
+    background-color: white !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) !important;
+    border-radius: 20px/20px !important;
+  }
+  .famous {
+    width: 100% !important;
+  }
+  .fame-card {
+    width: 45% !important;
+    height: 150px;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /*Footer*/
+  .foot-menu {
+    margin-left: 1em !important;
+    margin-right: 2em !important;
   }
 }
 /*
