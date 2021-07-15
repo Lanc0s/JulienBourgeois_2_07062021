@@ -292,6 +292,7 @@
 *********************************************************************************************************
 *********************************************************************************************************
 */
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 0.85em;
@@ -388,6 +389,7 @@ a.active {
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  border: 0;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: inline-block;
