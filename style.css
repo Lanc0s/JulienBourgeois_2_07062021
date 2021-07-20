@@ -185,6 +185,7 @@
   .foot-menu {
     margin-left: 0 !important;
     margin-right: 0 !important;
+    width: auto !important;
   }
   .foot-links {
     margin: 0 !important;
@@ -276,12 +277,6 @@
     margin-top: 0 !important;
     margin-right: 0 !important;
   }
-
-  /*Footer*/
-  .foot-menu {
-    margin-left: 1em !important;
-    margin-right: 2em !important;
-  }
 }
 /*
 *********************************************************************************************************
@@ -296,9 +291,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-size: 0.85em;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 0px;
+  margin: 0;
 }
 /*Top Nav*/
 header {
@@ -438,6 +431,11 @@ a.active {
 }
 /*Corps de la page*/
 
+main,
+header {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .disponibilite {
   display: flex;
   align-items: center;
@@ -631,15 +629,22 @@ a.active {
 
 /*Footer*/
 .pied {
+  width: 100%;
   background-color: #f2f2f2;
   display: flex;
 }
-
+.pied-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
 footer ul {
   list-style: none;
 }
+.foot-links {
+  padding-left: 0;
+}
 
 .foot-menu {
-  margin-left: 50px;
-  margin-right: 100px;
+  width: 33%;
 }
