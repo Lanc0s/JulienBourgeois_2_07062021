@@ -6,6 +6,10 @@
     margin-top: 0 !important;
   }
   /*Top Nav*/
+  header {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
   header,
   .container,
   nav,
@@ -91,7 +95,10 @@
     padding: 10px !important;
   }
   /* Corps de la page */
-
+  main {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
   #slogan {
     margin-left: 1em !important;
   }
@@ -179,8 +186,8 @@
     padding-bottom: 0 !important;
   }
   /*Footer*/
-  .pied {
-    flex-flow: column wrap;
+  .pied-container {
+    display: unset !important;
   }
   .foot-menu {
     margin-left: 0 !important;
@@ -255,6 +262,7 @@
   }
   #links-lgmt {
     align-items: center;
+    width: 100%;
   }
   .mostly-search {
     flex-direction: row !important;
@@ -262,7 +270,7 @@
     justify-content: space-around;
   }
   .acc-card {
-    width: 27% !important;
+    width: 26% !important;
     padding: 0 !important;
     background-color: white !important;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) !important;
@@ -270,6 +278,7 @@
   }
   .famous {
     width: 100% !important;
+    margin-left: 0 !important;
   }
   .fame-card {
     width: 45% !important;
@@ -632,11 +641,11 @@ header {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
+  justify-content: center;
 }
 .pied-container {
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+  width: 95%;
 }
 footer ul {
   list-style: none;
@@ -647,4 +656,9 @@ footer ul {
 
 .foot-menu {
   width: 33%;
+}
+
+.foot-menu li {
+  margin-bottom: 5px;
+  cursor: pointer;
 }
