@@ -395,7 +395,7 @@ a.active {
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  border: 0;
+  border: 0 !important;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: inline-block;
