@@ -187,6 +187,9 @@
     padding-bottom: 0 !important;
   }
   /*Footer*/
+  .foot-menu h3 {
+    margin-left: 1em;
+  }
   .pied-container {
     display: unset !important;
   }
@@ -361,6 +364,11 @@ a.active {
   */
 }
 
+main,
+header {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 /*Barre de recherche*/
 .btn-search {
   display: flex;
@@ -440,11 +448,6 @@ a.active {
 }
 /*Corps de la page*/
 
-main,
-header {
-  margin-left: 40px;
-  margin-right: 40px;
-}
 .disponibilite {
   display: flex;
   align-items: center;
@@ -684,7 +687,6 @@ footer ul {
 }
 
 .foot-menu li {
-  margin-left: 1em;
   margin-bottom: 5px;
   cursor: pointer;
 }
