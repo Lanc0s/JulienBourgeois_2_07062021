@@ -406,6 +406,8 @@ header {
   display: inline-block;
   padding-top: 14.6px;
   padding-bottom: 13.5px;
+  padding-right: 13px;
+  padding-left: 13px;
 }
 .barre-recherche {
   display: inline-block;
