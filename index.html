@@ -26,13 +26,13 @@
         <nav>
           <!--remplacer tout le ul par des div pour modifier le hover-->
           <div class="navbar">
-            <div class="active">
+            <div class="nav-menu" id="nav-accommodation">
               <a href="#accommodation"> Hébergement</a>
             </div>
             <div class="nav-menu" id="nav-activities">
               <a href="#activities">Activités</a>
             </div>
-            <div class="nav-menu" id="sub">
+            <div id="sub">
               <a href="#" id="inscription">S'inscrire</a>
             </div>
           </div>
@@ -40,7 +40,7 @@
       </div>
     </header>
     <main>
-      <h3 class="titres">
+      <h3 class="titres" id="main-titre">
         Trouvez votre hébergement pour des vacances de rêve
       </h3>
       <p id="slogan">En plein centre ville ou en pleine nature</p>
@@ -97,11 +97,11 @@
       </div>
 
       <section class="marseille" id="accommodation">
-        <article id="logement">
+        <div id="logement">
           <h2 class="ville-cherchee">Hébergements à Marseille</h2>
           <!--div padding ou padding dans image? flex grow flex shrink?-->
           <div id="links-lgmt">
-            <div class="acc-card">
+            <article class="acc-card">
               <img
                 class="acc_img"
                 alt=""
@@ -116,8 +116,8 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
-            <div class="acc-card">
+            </article>
+            <article class="acc-card">
               <img
                 class="acc_img"
                 alt=""
@@ -132,9 +132,9 @@
                   ><i class="fas fa-star"></i>
                 </div>
               </div>
-            </div>
+            </article>
 
-            <div class="acc-card">
+            <article class="acc-card">
               <img
                 class="acc_img"
                 alt=""
@@ -149,8 +149,8 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
-            <div class="acc-card">
+            </article>
+            <article class="acc-card">
               <img
                 class="acc_img"
                 alt=""
@@ -166,8 +166,8 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
-            <div class="acc-card">
+            </article>
+            <article class="acc-card">
               <img
                 class="acc_img"
                 alt=""
@@ -182,8 +182,8 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
-            <div class="acc-card">
+            </article>
+            <article class="acc-card">
               <img
                 class="acc_img"
                 alt=""
@@ -198,10 +198,10 @@
                   ><i class="fas fa-star"></i>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
-          <h4 class="ville-cherchee">Afficher plus</h4>
-        </article>
+          <h4 class="need-more">Afficher plus</h4>
+        </div>
 
         <aside class="famous">
           <div class="famousHead">
@@ -209,7 +209,7 @@
             <i class="fas fa-chart-line" id="fleche"> </i>
           </div>
           <div class="mostly-search">
-            <div class="fame-card">
+            <article class="fame-card">
               <img
                 class="fame-image"
                 alt=""
@@ -224,8 +224,8 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
-            <div class="fame-card">
+            </article>
+            <article class="fame-card">
               <img
                 class="fame-image"
                 alt=""
@@ -240,8 +240,8 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
-            <div class="fame-card">
+            </article>
+            <article class="fame-card">
               <img
                 class="fame-image"
                 alt=""
@@ -256,65 +256,65 @@
                   ><i class="fas fa-star greystar"></i>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </aside>
       </section>
 
-      <article id="activities">
+      <div id="activities">
         <!--flex grow flex shrink?-->
         <h2 class="titres">Activités à Marseille</h2>
         <div id="links-act">
-          <div class="act-card-grande">
+          <article class="act-card-grande">
             <img
               src="images/activites/2_large/vieux-port.jpg"
               class="image-act-grande"
               alt=""
             />
             <h4 class="description-act">Vieux Port</h4>
-          </div>
-          <div class="act-card">
+          </article>
+          <article class="act-card">
             <img
               src="images/activites/2_large/pomegues.jpg"
               class="image-act-moy"
               alt=""
             />
             <h4 class="description-act">Fort de Pomègues</h4>
-          </div>
-          <div class="act-card-petite">
+          </article>
+          <article class="act-card-petite">
             <img
               src="images/activites/2_large/frioul.jpg"
               class="image-act-petite"
               alt=""
             />
             <h4 class="description-act">Îles du Frioul</h4>
-          </div>
-          <div class="act-card-grande">
+          </article>
+          <article class="act-card-grande">
             <img
               src="images/activites/2_large/calanques.jpg"
               class="image-act-grande"
               alt=""
             />
             <h4 class="description-act">Parc National des Calanques</h4>
-          </div>
-          <div class="act-card-siamoise">
+          </article>
+          <article class="act-card-siamoise">
             <img
               src="images/activites/2_large/garde.jpg"
               class="image-act"
               alt=""
             />
             <h4 class="description-act">Notre-Dame-de-la-Garde</h4>
-          </div>
-          <div class="act-card-siamoise">
+          </article>
+          <article class="act-card-siamoise">
             <img
               src="images/activites/2_large/longchamp.jpg"
               class="image-act"
               alt=""
             />
             <h4 class="description-act">Parc Longchamp</h4>
-          </div>
+          </article>
         </div>
-      </article>
+      </div>
     </main>
     <footer>
       <div class="pied">

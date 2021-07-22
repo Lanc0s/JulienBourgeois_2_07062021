@@ -40,7 +40,7 @@
     right: 0;
   }
 
-  .active {
+  #nav-accommodation {
     margin: 0;
     padding: 0;
     height: 3em !important;
@@ -54,6 +54,12 @@
     border-bottom: 3px solid #f2f2f2;
   }
   /*Barre de recherche*/
+  #main-titre {
+    padding-left: 1em !important;
+  }
+  #title-filtre {
+    margin-left: 0.5em;
+  }
   .btn-search {
     display: flex;
     justify-content: center !important;
@@ -115,7 +121,7 @@
     padding: 1em;
   }
   .acc-card {
-    width: 95% !important;
+    width: 92% !important;
     margin-top: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -142,12 +148,12 @@
     border-radius: 0 !important;
   }
   .fame-card {
-    width: 95% !important;
+    width: 90% !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
   #msts {
-    margin-left: 0 !important;
+    margin-left: 0.3em !important;
   }
   .mostly-search {
     border-radius: 0 !important;
@@ -167,12 +173,13 @@
   }
   #links-act {
     max-height: none !important;
+    margin-left: 0 !important;
   }
   .act-card,
   .act-card-grande,
   .act-card-petite,
   .act-card-siamoise {
-    width: 90% !important;
+    width: 89% !important;
     margin-bottom: 0 !important;
     height: auto !important;
   }
@@ -185,6 +192,9 @@
   .description-act {
     padding-left: 0 !important;
     padding-bottom: 0 !important;
+  }
+  #activities h2 {
+    margin-left: 1em !important;
   }
   /*Footer*/
   .foot-menu h3 {
@@ -287,6 +297,12 @@
     margin-top: 0 !important;
     margin-right: 0 !important;
   }
+  #links-act {
+    margin-left: 0 !important;
+  }
+  .pied-container {
+    width: 89% !important;
+  }
 }
 /*
 *********************************************************************************************************
@@ -301,7 +317,8 @@
 body {
   font-family: "Raleway", sans-serif;
   font-size: 0.85em;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 100em;
 }
 /*Top Nav*/
 header {
@@ -323,7 +340,7 @@ nav {
   display: flex;
   height: 100%;
 }
-.active,
+#sub,
 .nav-menu {
   width: 10em;
 }
@@ -354,14 +371,6 @@ nav a {
 #inscription {
   color: #0065fc;
   font-weight: bold;
-}
-
-a.active {
-  color: #0065fc;
-  /*
-  border-top: solid;
-  border-color: #0065fc;
-  */
 }
 
 main,
@@ -503,7 +512,8 @@ header {
   padding-bottom: 2em;
 }
 
-.ville-cherchee {
+.ville-cherchee,
+.need-more {
   margin-left: 1.5em;
 }
 .famous {
@@ -566,6 +576,7 @@ header {
   max-height: 500px;
   align-items: center;
   gap: 2.2em;
+  margin-left: -0.69em;
 }
 .act-card {
   width: 21%;
@@ -675,7 +686,7 @@ header {
 }
 .pied-container {
   display: flex;
-  width: 95%;
+  width: 92%;
 }
 footer ul {
   list-style: none;
