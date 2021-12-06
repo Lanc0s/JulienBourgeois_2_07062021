@@ -1,0 +1,41 @@
+/*
+  rajouter onclick modification sur icone-fltr 
+  changer background color & color
+  ! left 0 & right X px
+*/
+
+.nav-menu :hover {
+  width: 100%;
+  border-top: 3px solid #0065fc;
+  height: 96%;
+  color: #0065fc;
+}
+
+.acc-card:hover,
+.act-card:hover,
+.act-card-grande:hover,
+.act-card-petite:hover,
+.act-card-siamoise:hover,
+.fame-card:hover {
+  transform: scale(1.04);
+}
+
+.acc-card,
+.act-card,
+.act-card-grande,
+.act-card-petite,
+.act-card-siamoise,
+.fame-card {
+  transition: transform 0.2s;
+}
+
+@media all and (max-width: 767px) {
+  .acc-card:active,
+  .act-card:active,
+  .act-card-grande:active,
+  .act-card-petite:active,
+  .act-card-siamoise:active,
+  .fame-card:active {
+    transform: scale(1.04);
+  }
+}
