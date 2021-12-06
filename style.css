@@ -23,10 +23,6 @@
     margin-left: 1em;
     margin-top: 1em;
   }
-  nav li {
-    margin-left: 2em !important;
-    margin-right: 2em !important;
-  }
 
   .navbar {
     height: 20% !important;
@@ -35,7 +31,6 @@
     justify-content: space-evenly;
   }
   #sub {
-    position: absolute;
     top: 2.3em;
     right: 0;
   }
@@ -57,7 +52,7 @@
   #main-titre {
     padding-left: 1em !important;
   }
-  #title-filtre {
+  #filtre-title {
     margin-left: 0.5em;
   }
   .btn-search {

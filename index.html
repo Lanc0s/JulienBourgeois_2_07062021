@@ -23,18 +23,17 @@
         <div id="logo">
           <img src="images/logo/Reservia.svg" alt="/" />
         </div>
-        <nav>
+        <nav class="navbar">
           <!--remplacer tout le ul par des div pour modifier le hover-->
-          <div class="navbar">
-            <div class="nav-menu" id="nav-accommodation">
-              <a href="#accommodation"> Hébergement</a>
-            </div>
-            <div class="nav-menu" id="nav-activities">
-              <a href="#activities">Activités</a>
-            </div>
-            <div id="sub">
-              <a href="#" id="inscription">S'inscrire</a>
-            </div>
+
+          <div class="nav-menu" id="nav-accommodation">
+            <a href="#accommodation"> Hébergement</a>
+          </div>
+          <div class="nav-menu" id="nav-activities">
+            <a href="#activities">Activités</a>
+          </div>
+          <div id="sub">
+            <a href="#" id="inscription">S'inscrire</a>
           </div>
         </nav>
       </div>
@@ -58,7 +57,7 @@
         </div>
       </div>
       <div class="filtre">
-        <p id="title-filtre">
+        <p id="filtre-title">
           <strong>Filtres</strong>
         </p>
         <!-- position absolut span ? remplacer button par div-->
@@ -273,6 +272,10 @@
             />
             <h4 class="description-act">Vieux Port</h4>
           </article>
+          <!--
+            Retravailler le margin/padding pour égaliser avec siamoise.
+            Retravailler les nom de class
+          -->
           <article class="act-card">
             <img
               src="images/activites/2_large/pomegues.jpg"
